@@ -8,7 +8,7 @@ public class Link : MonoBehaviour
 	public void OpenLinkJSPlugin()
 	{
 		#if !UNITY_EDITOR
-		openWindow(Field.text);
+		openWindow("https://elitesssstar.github.io/chall4/");
 		#endif
 	}
 
